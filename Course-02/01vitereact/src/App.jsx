@@ -1,7 +1,13 @@
+import Coffee from "./coffee"
+
 function App() {
 
   return (
-   <h1>Hello World || Laiba Muhammad Aslam </h1>
+   <>
+    <Coffee/>
+   <h1>Hello People</h1>
+   <p>We provide the best services</p>
+   </>
   )
 }
 
