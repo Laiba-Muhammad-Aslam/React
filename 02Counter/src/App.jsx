@@ -10,8 +10,11 @@ function App() {
   const addValue = () => {
     // console.log("Value Added", Math.random())
     console.log("Clicked", counter)
-    counter = counter + 1
-    setCounter(counter)
+    if(counter < 20){
+      counter = counter + 1
+      setCounter(counter)
+    }
+    
     /* DIFF WAYS TO DO UPDATE THE COUNTER 
     setCounter(counter + 1)
     setCounter(counter)
@@ -20,7 +23,9 @@ function App() {
 
   const removeValue = () => {
     // setCounter(counter--)
-    setCounter(counter - 1)
+    if(counter > 0){
+      setCounter(counter - 1)
+    }
   }
 
 
