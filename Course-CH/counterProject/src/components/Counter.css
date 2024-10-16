@@ -1,0 +1,22 @@
+.counter-container{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
+    border-radius: 2rem;
+  }
+.counter-container p{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: #ffff;
+    font-weight: bold;
+}
+.counter-container button{
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    outline: 0;
+    border: none;
+    font-size: 1rem;
+}
