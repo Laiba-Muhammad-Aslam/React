@@ -20,7 +20,11 @@ function DataFetcher() {
             <h1>Loading....</h1>
         ): (
             <ul>
-                <li key={post.id}> {post.title} </li>
+               {
+                data.map(post =>(
+                  <li key={post.id}> {post.title} </li>
+                ))
+               }
             </ul>
         )}
     </div>
