@@ -1,0 +1,33 @@
+.profile-card {
+    flex: 0 1 300px; /* Each card takes up a max width of 300px */
+    max-width: 300px;
+    min-width: 250px; /* Minimum width of each card */
+    height: auto; /* Ensure the height adjusts based on content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .profile-info img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+  }
+  
+  .profile-info {
+    padding: 16px;
+    text-align: center; 
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1em;
+    color: #555;
+    font-weight: bold;
+  }
+  
