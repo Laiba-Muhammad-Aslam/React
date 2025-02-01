@@ -10,12 +10,7 @@ function App() {
   return (
     <>
     <Header />
-   {/* <h1 className='text-center p-5 font-bold text-3xl'>Welcome to our Store</h1> */}
-   {/* <div className='flex align-items-center gap-10 justify-center'> */}
    <ProductCard/>
-   {/* <ProductCard/> */}
-   {/* <ProductCard/> */}
-   {/* </div> */}
    <Footer/>
     </>
   )
